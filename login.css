@@ -1,0 +1,19 @@
+body{
+    background: url(../img/login_lg.png) repeat;
+}
+.div_out{
+    width:420px;
+}
+.login_bg{
+    background: rgba(206,211,234,.4);
+    width:420px;
+    height: 500px;
+    margin-top: 180px;
+    text-align: center;
+    backface-visibility: hidden;
+    transition: all 1.2s linear;
+}
+
+.click{
+    transform: rotateY(180deg);
+}

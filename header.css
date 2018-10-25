@@ -1,0 +1,47 @@
+@media screen and (min-width:1250px){
+  .my_bgcolor{
+    background: rgb(51,51,51);       
+  }
+}
+@media screen and (max-width:1250px){
+    .my_bgcolor{
+      background: rgb(51,51,51); 
+      width:1250px;      
+    }
+  }
+.my_color{
+    color:rgb(176,176,176);
+}
+a.my_color:hover{
+    color:white;
+    text-decoration: none;
+}
+.my_fontsize{
+    font-size:0.65rem;
+}
+.my_p{
+    padding: 0.7rem 0 0.7rem;
+}
+.my_button{
+    background:rgb(255,103,0);
+}
+.my_button:hover{
+    background:rgb(176,176,176);
+    cursor: pointer;
+}
+.a2{
+    color:black;
+}
+.a2:hover{
+    color:red;
+    text-decoration: none;
+}
+.img_ml{
+    margin-left: -4px;
+}
+.button2{
+    border:1px solid gray;
+}
+.button2:hover{
+    border:1px solid red;
+}
